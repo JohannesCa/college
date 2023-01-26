@@ -1,0 +1,16 @@
+<header class="masthead">
+  <h1 class="masthead-title">
+    <a href="{{ site.baseurl }}/">Johannes <span>Cavalcante</span></a>
+    <span style="float: right">
+      <a href="https://github.com/JohannesCa" title="Github" target="_blank"><i class="fa fa-github-square fa"></i></a>
+      <!--<a href="https://br.linkedin.com/in/emersonfs" title="LinkedIn" target="_blank"><i class="fa fa-linkedin-square fa"></i></a>-->
+    </span>
+    <div style="clear: both"></div>
+  </h1>
+  <nav class="masthead-nav">
+    {% for nav in site.nav %}
+    <a href="{{ nav.href }}">{{ nav.name }}</a>
+    {% endfor %}
+  </nav>
+
+</header>

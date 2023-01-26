@@ -1,0 +1,4 @@
+Castelo.jpg - Aplicar ruídos e depois aplicar filtros de suavização.
+Deserto + Paisagem - Soma de imagens
+Feijao - Contraste adaptativo.
+Lena + Passaros - Operações nas Bandas RGB / Negativo / Suavização / Brilho

@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  text-align: center;
+  background: #e6e6e6;#e0dfff;
+  /* background-image: url(https://images2.alphacoders.com/754/thumb-1920-754564.png); */
+  background-image: url("hexagon-pattern.jpg");
+  /* background-size: 120px; */
+  background-repeat: repeat;
+  background-blend-mode: multiply;
+  color: #160460;
+}
+
+.header {
+  padding-left: 0.4em;
+  padding-top: 0.1em;
+  padding-bottom: 0.2em;
+
+  /* background: #3c0079; */
+  background: linear-gradient(-8deg, #3c0079 0%,#3762cb 100%);
+  color: rgba(100, 209, 255, 1);
+  text-align: left;
+  font-size: 3em;
+  font-weight: bolder;
+  font-style: italic;
+  text-shadow: -2px 2px rgba(0,0,0,0.8);
+}
+
+.container {
+  margin: 2em 10em;
+  padding: 0px 10px;
+  background: rgba(194, 201, 239, 0.8);rgba(135, 176, 210, 0.2);
+  border: 20px solid transparent;
+  border-radius: 5px;
+  text-align: left;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+p {
+  text-align: justify;
+  color: #160460;
+}
+
+div h1 {
+  background-color: rgb(156, 174, 220);rgba(86, 108, 164, 0.65);
+  margin-left: -30px;
+  margin-right: -30px;
+  padding: 5px 23px;
+  text-align: left;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 2.3em;
+  color: #0a012f;
+}
+
+.container-head {
+  margin-top: -20px
+}
+
+img {
+  margin: 5px 3%;
+  width: 94%;
+}
+
+footer {
+  padding: 16px 2em;
+  background: #030a39;
+  color: #acadc7;
+  text-align: left;
+  font-size: 11pt;
+}

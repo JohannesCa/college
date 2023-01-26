@@ -1,0 +1,9 @@
+*.tmp
+*~
+*.[ao]
+*.log
+.cproject
+.project
+Debug/
+Release/
+

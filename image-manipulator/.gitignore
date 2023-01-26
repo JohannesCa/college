@@ -1,0 +1,5 @@
+*.asv
+*.log
+*.tmp
+*.ini
+pt2/teste.m

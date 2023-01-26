@@ -1,0 +1,7 @@
+*.tmp
+*~
+*.[ao]
+*.log
+Debug/
+Release/
+

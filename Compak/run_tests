@@ -1,0 +1,22 @@
+#!/bin/bash
+
+declare -a files=("default.txt" "lorem-ipsum.txt" "generated.bin" "generated2.bin" "generated3.bin" "generated.fib25" "generated.equal")
+
+echo "...Cleaning output dir"
+rm -f output/*
+
+for i in "${files[@]}"
+do
+   echo "...Testing compression with file $i"
+   ./Compak-3.py -l 5000 $i
+   echo ""
+done
+
+for i in "${files[@]}"
+do
+   echo "...Comparing input file and generated file (diff)"
+   diff -s files/$i output/$i
+   echo ""
+done
+
+echo "...Testing done"

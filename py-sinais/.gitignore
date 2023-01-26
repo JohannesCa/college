@@ -1,0 +1,11 @@
+*~
+*.tmp
+*.log
+*.[ao]
+*.pyc
+*.mp3
+*.png
+*.wav
+__pycache__/
+cuts/
+/samples/*
