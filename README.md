@@ -1,4 +1,4 @@
-# College Task
+# College
 
 A collection of tasks and activities developed in my old days as a college student.
 
